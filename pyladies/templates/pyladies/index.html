@@ -1,0 +1,165 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+
+
+    <title>Silicon Valley PyLadies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" >
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet" >
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+	<link href={% static "css/style.css" %} rel="stylesheet" media="screen">
+	<link href={% static "css/animate.css"%} rel="stylesheet">
+	<link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+			#mc_embed_signup{ font-family: 'Poiret One', cursive; display: inline-block; max-width: 100%;
+    		margin-bottom: 5px; font-size: 18px;}
+			/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+		    We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+
+</head>
+<body class="animated 1s fadeIn">
+	<!--Start Padding-->
+
+	<div class="padding">
+
+		<!-- Start Row -->
+		<div class="row">
+
+			<!-- Start Col 8 -->
+			<div class="col-md-8 col-md-offset-1">
+		
+				<img src="{% static "images/SVPyLogo.png" %}" class="pull-right animated 10s tada" alt="Silicon Valley PyLadies">
+
+				<!-- start title -->
+
+				<div id="logo-name">
+					Silicon Valley <span class="logo-color">PyLadies</span>
+				</div>
+
+				<!--end title-->
+
+				<!-- start info -->
+				<p>
+					Hi there! We are a friendly group of people dedicated to learning and teaching Python. Follow us on <a href="http://www.meetup.com/PyLadiesSF/">Meetup.com</a> for upcoming events. Join us on <a href="https://www.facebook.com/groups/svpyladies/">Facebook</a> and team up with our members outside of our meeting. Learn or join in on our projects on our <a href="https://github.com/SiliconValleyPyLadies">Github</a> account. 
+				</p>
+
+			</div>
+			<!--end col 8-->
+		</div>
+		<!--end row-->
+
+		<!--start row chimp-->
+		<div class="row" >
+			<!-- start col chimp-->
+			<div class="col-md-8 col-md-offset-1" >
+				<!-- Begin MailChimp Signup Form -->
+				<br/>
+				<div id="mc_embed_signup" style="padding: 10px; border-radius: 10px;border: 2px solid #F75271;">
+					<form action="//pyladies.us11.list-manage.com/subscribe/post?u=25f25cb2407b483437e0ab413&amp;id=88ae1365d4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					    <div id="mc_embed_signup_scroll">
+						
+							<label for="mce-EMAIL" style="font-size:24px; font-family:'Poiret One',cursive;">
+							Sign up to join our private Facebook group
+							</label>
+
+							<br/>
+
+							<input style="font-size:18px; font-family:'Lora', Serif; border-radius: 10px;" type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder=" email address" required>
+						    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+						    <div style="position: absolute; left: -5000px;"><input type="text" name="b_25f25cb2407b483437e0ab413_88ae1365d4" tabindex="-1" value="">
+						    </div>
+							<div class="clear" style="padding-top:10px;">
+							    <input style="font-size:18px; font-family:'Lora', Serif ; border-radius: 10px; background-color:#F75271; color:white; " type="submit" value="Sign me up!" name="subscribe" id="mc-embedded-subscribe" class="button">
+							</div>
+					    </div>
+					</form>
+				</div>
+				<!--End mc_embed_signup-->
+			</div>
+			<!--end col chimp-->
+		</div> 
+		<!--end row chimp-->
+
+
+		<!--start Row-->
+		<div class="row">
+
+			<!--start col 8-->
+			<div class="col-md-8 col-md-offset-1">
+				<h4>Topics covered in previous meetups: </h4>
+		
+				<p>
+					<ul>
+						<li>APIs</li>
+						<li>Django Web Framework</li>
+						<li>Flask Web Framework</li>
+				 		<li>Machine Learning</li>
+						<li>Pair Programming</li>
+						<li>Raspberry Pi</li>
+						<li>Web Scraping</li>
+					</ul>
+				</p>
+
+				<h4>Location:</h4>
+				<p>
+					Yahoo!<br />
+					1350 N Matilda Ave, Sunnyvale<br />	
+					Building F, 1st Floor Classroom, SS-Minnow <br />
+				</p>
+
+
+				<p>
+
+				</p>
+				<h4>Keep up with us!</h4>
+				<p>
+					<a href="https://www.facebook.com/groups/svpyladies/"><img src= {% static "images/fb-icon.png" %} alt="PyLadies Silicon Valley Facebook" /></a>
+					<a href="http://www.meetup.com/PyLadiesSF/"><img src={% static "images/meetup-icon.png" %}  alt="PyLadies Silicon Valley Meetup" /></a>
+					<a href="https://github.com/SiliconValleyPyLadies"><img src={% static "images/github-icon.png" %} alt="PyLadies Silicon Valley GitHub" /></a>
+				</p>
+
+				<br /><br />
+
+			</div>
+			<!--end col 8-->
+					
+		</div>
+		<!-- end row -->
+
+		<!--start row map-->
+		<div class="row">
+			<!-- start col map-->
+				<div class="col-md-12">
+					<iframe width='100%' height='300px' frameBorder='0' src='https://a.tiles.mapbox.com/v4/posenberg.mm0g2n63/attribution,zoompan,geocoder,share.html?access_token=pk.eyJ1IjoicG9zZW5iZXJnIiwiYSI6IjRmN2NhNjg3YjkyZDEzNGYxMzNlYTM1YmMzMDY4ZDY0In0.cx-63Se86Kb7hxHdrg5Hsw'></iframe>
+				</div>
+			<!--end col map-->
+		</div> 
+		<!--end row map-->
+
+
+	</div>
+	<!--End Padding-->
+	
+	<!-- start footer -->
+    <footer class="footer">
+		<p class="text-muted"><span class="footer-color"> {% now "Y" %} Silicon Valley PyLadies</span></p>
+    </footer>
+    <!-- end footer -->
+
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
